@@ -1,0 +1,322 @@
+body {
+	padding-bottom: 100px;
+	background-color: #fff;
+	/*height: 2000px;*/
+}
+
+/*.wrapper {
+	width: 100%;
+	height: 100%;
+	/*background-color: rgba(0, 0, 0, 0.3);*/
+}
+
+.hero{
+	width: 100%;
+	height: 350px;
+	/*background-color: #ECE9E9;*/
+	padding-top: 24px;
+	
+	background-image: url('../img/trans-bg.png');
+	object-fit: cover;
+}
+
+.hero p, h5 {
+	color: #fff;
+}
+.hero-detail {
+	width: 100%;
+	height: 350px;
+	background-color: #dadada;
+	padding-top: 24px;
+	
+	/*background-image: url('../img/bannerskpd.png');
+	object-fit: cover;*/
+}*/
+
+.logo {
+	width: 100px;
+	height: 130px;
+}
+
+.content {
+	margin-top: -180px;
+}
+
+.content-bg {
+	background-color: #fff;
+	/*padding-bottom: 20px;*/
+	margin-bottom: 20px ;
+}
+
+.content-detail {
+	margin-top: -180px;
+}
+
+.my-nav {
+	background-color: #1976D2;
+}
+
+.slides {
+	height: 300px;
+}
+
+.slides img {
+	height: 100%;
+}
+
+.news-wrapper {
+	background-color: #fff;
+	height: 1590px;
+	margin-top: 100px;
+	padding-bottom: 50px;
+}
+
+/*.headnews{
+	margin-top: 10px;
+}
+
+.information {
+	margin-left: 24px;
+	margin-top: 10px;
+}
+
+.announcement {
+	margin-left: 24px;
+	margin-top: 10px;
+}
+*/
+.card-action a{
+	color: #0d47a1 !important;
+}
+
+.card-title {
+	font-size: 18px !important;
+}
+
+.card-content p{
+	font-size: 14px;
+	line-height: 20px;
+}
+
+/*.footer {
+	height: 300px;
+	padding-top: 20px;
+	padding-left: 50px;
+}
+
+.footer-header {
+	font-size: 20px;
+	color: #fff;
+	margin-top: 0px;
+}
+*/
+.contact {
+	color: #fff;
+}
+
+/*.footer hr {
+	width: 350px;
+    margin-left: 0px;
+}*/
+
+.wrap-content {
+	background-color: #fff;
+	height: 800px;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+.news-title {
+	display: block;
+    line-height: 32px;
+    margin-bottom: 8px;
+    font-size: 25px;
+}
+
+.news-date {
+	font-size: 12px;
+	color: #757575;
+}
+
+.news-img {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.news-img img{
+	width: 400px;
+	height: 300px;
+}
+
+.org-img img{
+	width: 600px;
+	height: 400px;
+}
+
+.contacts {
+	margin-top: 24px;
+}
+
+nav {
+	transition: all 0.3s ease-in-out;
+}
+
+.custom-nav {
+	position: fixed;
+	z-index: 999;
+	/*background: transparent;*/
+	background-color: rgba(0, 0, 0, 0.3);
+	box-shadow: none;
+	height: 100px;
+	padding: 10px;
+}
+
+.nav-bg {
+	background-color: #0d47a1;
+	height: 90px;
+	padding: 5px;
+}
+
+.custom-header {
+	height: 100px;
+	background-color: #dadada;
+	width: 100%;
+}
+
+.custom-nav img {
+	width: 60px;
+	height: 80px;
+}
+
+.slider-text {
+	margin-top: 120px;
+}
+
+.news-wrapper2 {
+	background-color: #fff;
+	height: 1590px;
+	padding-bottom: 50px;
+}
+
+
+.wrapper2 {
+	/*position: relative;*/
+	height: 100%;
+	width: 100%;
+}
+
+/*@media screen and (max-width: 780px) {
+	.wrapper2 {
+		height: 500px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.wrapper2 {
+		height: 300px;
+	}
+}*/
+
+.slider {
+height: 100vh;
+top: -74px;
+}
+
+.slider .indicators {
+z-index: 9999;
+bottom: 30px;
+}
+
+.news-header {
+	color: #0d47a1;
+}
+
+.informasi {
+	/*margin-left: 50px;*/
+}
+
+/*.card {
+	background-color: #fafafa;
+}*/
+
+.custom-container {
+	padding-left: 70px;
+	padding-right: 50px;
+}
+
+.title-bg {
+	background-color: #0d47a1;
+	color: #fff;
+	padding: 2px 5px 5px 25px;
+	margin-bottom: 20px;
+}
+
+.title-bg p {
+	font-size: 16px;
+}
+
+.news {
+	background-color: #fafafa;
+	padding-bottom: 20px;
+}
+
+.photo {
+	background-color: #fafafa;
+	padding-bottom: 20px;
+
+}
+
+.video {
+	background-color: #fafafa;
+	padding-bottom: 20px;
+}
+
+.dropdown-content {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dropdown-content a{
+	color: #fff !important;
+}
+
+.dropdown-button {
+	width: 150px;
+}
+
+.slider-text h3 {
+	font-weight: 300;
+}
+
+.dropdown-content.nested {
+   overflow-y: visible ;
+}
+
+.dropdown-content .dropdown-content {
+   margin-left: 100% !important;
+}
+
+.dropdown-content li {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+	transition: all 0.3s ease-in-out;
+}
+
+.dropdown-content li:hover {
+	border-bottom: 1px solid #eee;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.custom-input:focus {
+	display: inline !important;
+}
+
+.input-field input {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 150px;
+	display: inline;
+
+}
+
+.custom-input:focus {
+	display: inline !important;
+}
