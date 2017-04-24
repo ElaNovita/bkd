@@ -177,3 +177,12 @@ nav {
 	margin-bottom: 20px;
 }
 
+.title-small {
+	display: block;
+	line-height: 32px;
+	margin-bottom: 8px;
+	font-size: 18px;
+	margin-left: 10px;
+	font-weight: 300;
+}
+
